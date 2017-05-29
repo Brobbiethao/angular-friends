@@ -22,7 +22,7 @@ Fork and clone this repo
 
 Add a script tag below the two script tags currently in `index.html`. Grab the href from angularjs.org (Don't worry about the other two script tags, they are there for styling purposes.)
 
-Create a file named `app.js`. Add the script tag for your new file to `index.html`. Inside this file, call angular's `module` method and pass in a name of `myApp` and an empty array. Without the empty array argument, angular would try to find the `myApp` module instead of creating a new module. Add the `ng-app` attribute to the `body` element in your html.
+Create a file named `app.js`. Add the script tag for your new file to `index.html`. Inside this file, call angular's `module` method and pass in a name of `myApp` and an empty array. Without the empty array argument, angular would try to find the `myApp` module instead of creating a new module. Add the `controller` attribute to the `body` element in your html.
 
 Create a file named `FriendCtrl.js`. After calling the `module` method with only its name, call the controller method giving it the name `FriendCtrl` and a function. Add the `ng-controller` attribute to the div with the class `friends`.
 
